@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Editor</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--title bar-->
+        <header class="head">
+
+            <!--titlebar left elements-->
+            <div class="lefties">
+            <div class="l-container" id="icon"></div>
+            <div class="l-container" id="app-title">Rhyme</div>
+            <div class="l-container" id="dots-main">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            </div>
+
+            <div class="lefties-menu">
+                    <div class="menu-container" id="file">File</div>
+                    <div class="menu-container" id="edit">Edit</div>
+                    <div class="menu-container" id="Selection">Selection</div>
+                    <div class="menu-container" id="go">Go</div>
+                    <div class="menu-container" id="help">Help</div>
+            </div>
+
+            <!--window options-->
+            <div class="traffic-container">
+            <div class="traffic-lights" id="minimize"></div>
+            <div class="traffic-lights" id="max-restore"></div>
+            <div class="traffic-lights" id="close"></div>
+            </div>
+            
+        </header>
+
+
+            <div id="new-win-button">
+             +
+            </div>
+            
+            <div class="main-win-container">
+
+                <div class="new-win" id="new-win">
+                    <div class="new-win-head" id="new-win-head">
+                        <div id="new-win-head-title">test.js</div>
+                    </div>
+                    <iframe class="child-frame" id="new-win-text" name="win" frameborder="0"></iframe>
+                </div>
+
+                
+
+            </div>
+            
+        <script src="../appMods/edit.js"></script>
+        <script src="../appMods/window.js"></script>
+    </body>
+</html>

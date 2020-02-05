@@ -1,0 +1,14 @@
+{
+  "name": "editor",
+  "version": "1.0.0",
+  "description": "Editor",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Aditya Shenoy",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^7.1.2"
+  }
+}
