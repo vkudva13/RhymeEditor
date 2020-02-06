@@ -1,5 +1,5 @@
-window.addEventListener('load',()=>{
-var editmode = win.document;
-editmode.designMode = "on";
-},false)
+// window.addEventListener('load',()=>{
+// var editmode = win.document;
+// editmode.designMode = "on";
+// },false)
 
